@@ -1,4 +1,4 @@
-import { Controller } from "common/controller-crud";
+import { Controller } from "../../common/controller-crud";
 import { Request, Response } from "express";
 
 const HomeController: Controller = {
