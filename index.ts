@@ -25,7 +25,7 @@ const main = async () => {
    *
    */
 
-  app.use("/", HomeRouter);
+  app.use("/api", HomeRouter);
 
   app.listen(port, () => console.log(`Server started at port:${port}`));
 };
