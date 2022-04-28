@@ -1,20 +1,19 @@
 import { Controller } from "../../common/controller-crud";
-import { Request, Response } from "express";
 
 const HomeController: Controller = {
-  index: async (req: Request, res: Response) => {
+  index: async (req, res) => {
     return res.json("index");
   },
-  store: async (req: Request, res: Response) => {
+  store: async (req, res) => {
     return res.json("store");
   },
-  show: async (req: Request, res: Response) => {
+  show: async (req, res) => {
     return res.json("show");
   },
-  update: async (req: Request, res: Response) => {
+  update: async (req, res) => {
     return res.json("update");
   },
-  destroy: async (req: Request, res: Response) => {
+  destroy: async (req, res) => {
     return res.json("destroy");
   },
 };
